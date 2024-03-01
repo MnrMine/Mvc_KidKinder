@@ -1,0 +1,48 @@
+﻿@model List<KidKinder.Entities.Gallery>
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/AdminLayout/Index.cshtml";
+}
+<br />
+<h3>Galeri </h3>
+<br />
+<table class="table table-bordered">
+    <tr>
+        <th>#</th>
+        <th>Resim</th>
+        <th>Durum</th>
+
+        @*<th>Açıklama</th>*@
+
+        <th> Sil</th>
+
+
+    </tr>
+    @foreach (var item in Model)
+    {
+    <tr>
+        <td>@item.GalleryId</td>
+
+        <td><img src="@item.ImageUrl" style="height:180px; width:350px;" /></td>
+        @if (item.Status == 1)
+        {
+            <td><a href="/AdminGaleri/Passive/@item.GalleryId" class="btn btn-success">Aktif</a></td>
+        }
+        else
+        {
+
+            <td>
+                <a href="/AdminGaleri/Active/@item.GalleryId"><i class="btn btn-danger">Pasif</i></a>
+            </td>
+        }
+
+        <td><a href="/AdminGaleri/DeleteGaleri/@item.GalleryId" class="btn btn-danger">Sil</a></td>
+
+
+
+
+    </tr>
+    }
+</table>
+<a href="/AdminGaleri/CreateGaleri" class="btn btn-primary">Yeni Resim Girişi</a>
+

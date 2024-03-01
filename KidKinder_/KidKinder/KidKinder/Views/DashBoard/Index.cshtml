@@ -1,0 +1,258 @@
+﻿@model List<KidKinder.Entities.Testimonial>
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/AdminLayout/Index.cshtml";
+}
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+    <!-- Favicon icon -->
+    <link rel="icon" href="~/Templates/material_able-main/assets/images/favicon.ico" type="image/x-icon">
+    <!-- Google font-->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700" rel="stylesheet">
+    <!-- waves.css -->
+    <link rel="stylesheet" href="~/Templates/material_able-main/assets/pages/waves/css/waves.min.css" type="text/css" media="all">
+    <!-- Required Fremwork -->
+    <link rel="stylesheet" type="text/css" href="~/Templates/material_able-main/assets/css/bootstrap/css/bootstrap.min.css">
+    <!-- waves.css -->
+    <link rel="stylesheet" href="~/Templates/material_able-main/assets/pages/waves/css/waves.min.css" type="text/css" media="all">
+    <!-- themify icon -->
+    <link rel="stylesheet" type="text/css" href="~/Templates/material_able-main/assets/icon/themify-icons/themify-icons.css">
+    <!-- font-awesome-n -->
+    <link rel="stylesheet" type="text/css" href="~/Templates/material_able-main/assets/css/font-awesome-n.min.css">
+    <link rel="stylesheet" type="text/css" href="~/Templates/material_able-main/assets/css/font-awesome.min.css">
+    <!-- scrollbar.css -->
+    <link rel="stylesheet" type="text/css" href="~/Templates/material_able-main/assets/css/jquery.mCustomScrollbar.css">
+    <!-- Style.css -->
+    <link rel="stylesheet" type="text/css" href="~/Templates/material_able-main/assets/css/style.css">
+</head>
+
+
+
+<!-- Main-body start -->
+<div class="main-body">
+    <div class="page-wrapper">
+        <!-- Page-body start -->
+        <div class="page-body">
+            <div class="row">
+                <!-- Material statustic card start -->
+                <div class="col-xl-4 col-md-12">
+                    <div class="card mat-clr-stat-card text-white green ">
+                        <div class="card-block">
+                            <div class="row">
+                                <div class="col-3 text-center bg-c-green">
+                                    <i class="fas fa-align-justify mat-icon f-24"></i>
+                                </div>
+                                <div class="col-9 cst-cont">
+                                    <h5>Resim Sınıfı</h5>
+                                    <p class="m-b-20">En Pahalı Sınııfımız</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card mat-clr-stat-card text-white blue">
+                        <div class="card-block">
+                            <div class="row">
+                                <div class="col-3 text-center bg-c-blue">
+                                    <i class="fas fa-trophy mat-icon f-24"></i>
+                                </div>
+                                <div class="col-9 cst-cont">
+                                    <h5>Sevda YILMAZ</h5>
+                                    <p class="m-b-20">En Çok Like Alan Öğretmenimiz</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xl-4 col-md-12">
+                    <div class="card mat-clr-stat-card text-white yellow ">
+                        <div class="card-block">
+                            <div class="row">
+                                <div class="col-3 text-center bg-c-yellow">
+                                    <i class="fas fa-star mat-icon f-24"></i>
+                                </div>
+                                <div class="col-9 cst-cont">
+                                    <h5>Dil Sınıfı</h5>
+                                    <p class="m-b-20">En Kalabalık Sınıfımız</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card mat-clr-stat-card text-white red">
+                        <div class="card-block">
+                            <div class="row">
+                                <div class="col-3 text-center bg-c-red">
+                                    <i class="fas fa-address-book mat-icon f-32"></i>
+                                </div>
+                                <div class="col-9 cst-cont">
+                                    <h5>Ayşe ZEYTİN</h5>
+                                    <p class="m-b-20">En Küçük Öğrencimiz</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-md-12">
+                    <div class="card mat-stat-card">
+                        <div class="card-block">
+                            <div class="row align-items-center b-b-default">
+                                <div class="col-sm-6 b-r-default p-b-20 p-t-20">
+                                    <div class="row align-items-center text-center">
+                                        <div class="col-4 p-r-0">
+                                            <i class="fa-solid fa-school text-c-yellow f-24"></i>
+                                        </div>
+                                        <div class="col-8 p-l-0">
+                                            <h5>@ViewBag.v2</h5>
+                                            <p class="text-muted m-b-0">Öğrenci Sayısı</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6 p-b-20 p-t-20">
+                                    <div class="row align-items-center text-center">
+                                        <div class="col-4 p-r-0">
+                                            <i class="fa-solid fa-person-chalkboard text-c-green f-24"></i>
+
+                                        </div>
+                                        <div class="col-8 p-l-0">
+                                            <h5>@ViewBag.v1</h5>
+
+                                            <p class="text-muted m-b-0">Öğretmen Sayısı</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row align-items-center">
+                                <div class="col-sm-6 p-b-20 p-t-20 b-r-default">
+                                    <div class="row align-items-center text-center">
+                                        <div class="col-4 p-r-0">
+                                            <i class="far fa-calendar-check text-c-red f-24"></i>
+                                        </div>
+                                        <div class="col-8 p-l-0">
+                                            <h5>@ViewBag.ResimCizmeCount</h5>
+                                            <p class="text-muted m-b-0">Resim Öğretmeni</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6 p-b-20 p-t-20">
+                                    <div class="row align-items-center text-center">
+                                        <div class="col-4 p-r-0">
+                                            <i class="fa-solid fa-heart text-c-blue f-24"></i>
+                                        </div>
+                                        <div class="col-8 p-l-0">
+                                            <h5>@ViewBag.AvgPrice</h5>
+                                            <p class="text-muted m-b-0">Ortalama Fiyat</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                </div>
+                <div class="col-xl-12">
+                    <div class="card proj-progress-card">
+                        <div class="card-block">
+                            <div class="row">
+                                <div class="col-xl-3 col-md-6">
+                                    <h6>Sınıf Sayısı</h6>
+                                    <h5 class="m-b-30 f-w-700">---<span class="text-c-green m-l-10">@ViewBag.v3 ---</span></h5>
+                                    <div class="progress">
+                                        <div class="progress-bar bg-c-red" style="width:25%"></div>
+                                    </div>
+                                </div>
+                                <div class="col-xl-3 col-md-6">
+                                    <h6>Okul Mevcudu</h6>
+                                    <h5 class="m-b-30 f-w-700">---<span class="text-c-red m-l-10">@ViewBag.totalseat ---</span></h5>
+                                    <div class="progress">
+                                        <div class="progress-bar bg-c-blue" style="width:65%"></div>
+                                    </div>
+                                </div>
+                                <div class="col-xl-3 col-md-6">
+                                    <h6>Toplam Veli Sayımız</h6>
+                                    <h5 class="m-b-30 f-w-700">---<span class="text-c-green m-l-10"> @ViewBag.v4 ---</span></h5>
+                                    <div class="progress">
+                                        <div class="progress-bar bg-c-green" style="width:85%"></div>
+                                    </div>
+                                </div>
+                                <div class="col-xl-3 col-md-6">
+                                    <h6>En Küçük Öğrencimiz</h6>
+                                    <h5 class="m-b-30 f-w-700">---<span class="text-c-green m-l-10">2 ---</span></h5>
+                                    <div class="progress">
+                                        <div class="progress-bar bg-c-yellow" style="width:45%"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-12 col-md-6">
+                    <div class="card table-card">
+                        <div class="card-header">
+                            <h5>Hakkımızda Yapılan Yorumlar</h5>
+                            <div class="card-header-right">
+                                <ul class="list-unstyled card-option">
+                                    <li><i class="fa fa fa-wrench open-card-option"></i></li>
+                                    <li><i class="fa fa-window-maximize full-card"></i></li>
+                                    <li><i class="fa fa-minus minimize-card"></i></li>
+                                    <li><i class="fa fa-refresh reload-card"></i></li>
+                                    <li><i class="fa fa-trash close-card"></i></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="card-block">
+                            <div class="table-responsive">
+                                <table class="table table-hover m-b-0 without-header">
+                                    <tbody>
+                                        @foreach (var item in Model)
+                                        {
+                                        <tr>
+                                            <td>
+                                                <div class="d-inline-block align-middle">
+                                                    <img src="@item.ImageUrl" alt="user image" class="img-radius img-40 align-top m-r-15">
+                                                    <div class="d-inline-block">
+                                                        <h6>@item.NameSurname</h6>
+                                                        <p class="text-muted m-b-0"></p>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                            <td class="text-right">
+                                                <h6>@item.Title<i class="fas fa-face-smile-wink text-c-red m-l-10"></i></h6>
+                                            </td>
+                                            <td class="text-right">
+                                                <h6>@item.Comment<i class="fas fa-face-smile-wink text-c-red m-l-10"></i></h6>
+                                            </td>
+                                        </tr>
+                                        }
+
+
+                                    </tbody>
+                                </table>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <!-- Material statustic card end -->
+                <!-- order-visitor start -->
+                <!-- order-visitor end -->
+                <!--  sale analytics start -->
+                <!--  sale analytics end -->
+                <!-- Project statustic start -->
+                <!-- Project statustic end -->
+                <!-- Page-body end -->
+            </div>
+            <div id="styleSelector"> </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
