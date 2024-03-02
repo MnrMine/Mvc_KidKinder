@@ -39,7 +39,8 @@ Proje, ASP.NET Framework, SQL Server, MVC, CSS, ve HTML kullanılarak geliştiri
 # Galeri
 ![Galeri](https://github.com/MnrMine/Mvc_KidKinder/assets/148393149/eb059b7e-c588-4ba3-955a-5c53911699f2)
 # Grafik
-![Galeri](https://github.com/MnrMine/Mvc_KidKinder/assets/148393149/81d52476-9f5d-457d-9ecd-985e246f0dce)
+![grafik](https://github.com/MnrMine/Mvc_KidKinder/assets/148393149/0036de62-0f95-4970-bc95-d5c7eaf25cb9)
+
 
 
 
