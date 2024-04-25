@@ -2,7 +2,7 @@
 Kid_Kinder...
 Bu proje M&Y Yazlım Akademi ile ilerlettiğim eğitimin ikinci projesidir.Anaokulu/Kreş Tanıtım Sitesi uygulamasını içermektedir.Kullanılan Template'yi PartialView lere ayırarak kod kalabalığından ve hataları en aza indirerek kolay kullanım sağlamaktadır.
 # Projeye Genel Bakış
-Proje, ASP.NET Framework, SQL Server, MVC, CSS, ve HTML kullanılarak geliştirilmiş bir  Dinamik Cv uygulamasını içermektedir.Template kullanarak Model-View-Controller yapılarını ile Sql Server Veri Tabanına veriler kaydedilerek dinamik olarak proje oluşturulmuştur.Projeye eklenen dashboard sekmesi ile projenin tüm istatistik bilgilerine ve öne çıkan özelliklerine erişim sağlamaktadır.İframe komutu ile haritalar üzerinden konum bilgilerine erişim sağlanmaktadır.
+Proje, ASP.NET Framework, SQL Server, MVC, CSS, ve HTML kullanılarak geliştirilmiş bir  Dinamik tanıtım  uygulamasını içermektedir.Template kullanarak Model-View-Controller yapılarını ile Sql Server Veri Tabanına veriler kaydedilerek dinamik olarak proje oluşturulmuştur.Projeye eklenen dashboard sekmesi ile projenin tüm istatistik bilgilerine ve öne çıkan özelliklerine erişim sağlamaktadır.İframe komutu ile haritalar üzerinden konum bilgilerine erişim sağlanmaktadır.
 # Kullanılan Teknolojiler ve Uygulamalar
 - ASP.NET Framework
 - SQL Server
